@@ -1,8 +1,6 @@
 -- import: meenukumari28.github.io/onest-font/assets as onest-font-assets
 
-;; ⚠️fastn-builders::⚠️ before using this file please find and replace <font-name>
-;; with font name you have given inside 
-;; `meenukumari28.github.io/onest-font/FASTN.ftd file
+
 
 
 
@@ -59,12 +57,12 @@ Below is an example of creating a custom `ftd.type` using onest-font.
 \-- ftd.type onest-font-size-12-desktop:
 size.px: 12
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 \-- ftd.type onest-font-size-12-mobile:
 size.px: 12
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 \-- ftd.responsive-type onest-font-size-12-400:
 desktop: $onest-font-size-12-desktop
@@ -111,13 +109,13 @@ color: $inherited.colors.text-strong
 -- ftd.type onest-font-size-12-desktop:
 size.px: 12
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-12-mobile:
 size.px: 12
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-12-400:
 desktop: $onest-font-size-12-desktop
@@ -130,13 +128,13 @@ mobile: $onest-font-size-12-mobile
 -- ftd.type onest-font-size-12-500-desktop:
 size.px: 12
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-12-500-mobile:
 size.px: 12
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-12-500:
 desktop: $onest-font-size-12-500-desktop
@@ -149,13 +147,13 @@ mobile: $onest-font-size-12-500-mobile
 -- ftd.type onest-font-size-12-800-desktop:
 size.px: 12
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-12-800-mobile:
 size.px: 12
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-12-800:
 desktop: $onest-font-size-12-800-desktop
@@ -168,13 +166,13 @@ mobile: $onest-font-size-12-800-mobile
 -- ftd.type onest-font-size-18-desktop:
 size.px: 18
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-18-mobile:
 size.px: 18
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-18-400:
 desktop: $onest-font-size-18-desktop
@@ -187,13 +185,13 @@ mobile: $onest-font-size-18-mobile
 -- ftd.type onest-font-size-18-500-desktop:
 size.px: 18
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-18-500-mobile:
 size.px: 18
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-18-500:
 desktop: $onest-font-size-18-500-desktop
@@ -206,13 +204,13 @@ mobile: $onest-font-size-18-500-mobile
 -- ftd.type onest-font-size-18-800-desktop:
 size.px: 18
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-18-800-mobile:
 size.px: 18
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-18-800:
 desktop: $onest-font-size-18-800-desktop
@@ -225,13 +223,13 @@ mobile: $onest-font-size-18-800-mobile
 -- ftd.type onest-font-size-48-desktop:
 size.px: 48
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-48-mobile:
 size.px: 48
 weight: 400
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-48-400:
 desktop: $onest-font-size-48-desktop
@@ -244,13 +242,13 @@ mobile: $onest-font-size-48-mobile
 -- ftd.type onest-font-size-48-500-desktop:
 size.px: 48
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-48-500-mobile:
 size.px: 48
 weight: 500
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-48-500:
 desktop: $onest-font-size-48-500-desktop
@@ -263,13 +261,13 @@ mobile: $onest-font-size-48-500-mobile
 -- ftd.type onest-font-size-48-800-desktop:
 size.px: 48
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 
 -- ftd.type onest-font-size-48-800-mobile:
 size.px: 48
 weight: 800
-font-family: $onest-font-assets.fonts.<font-name>
+font-family: $onest-font-assets.fonts.Onest
 
 -- ftd.responsive-type onest-font-size-48-800:
 desktop: $onest-font-size-48-800-desktop
