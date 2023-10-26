@@ -1,0 +1,274 @@
+-- import: meenukumari28.github.io/onest-font/assets as onest-font-assets
+
+
+
+
+
+
+
+
+-- site-doc.doc-home: FTD onest-font package
+site-title: `onest-font`
+show-tabs: false
+github-url: meenukumari28.github.io/onest-font
+current-package: meenukumari28.github.io/onest-font
+
+This FTD font `onest-font` package is for your ftd web projects. To Use this
+onest-font inside `FTD` project follow below instructions.
+
+-- site-doc.header: How to use onest-font?
+
+-- cb.code: Add this to your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: meenukumari28.github.io/onest-font
+
+-- site-doc.header: Next step:
+
+After adding onest-font dependency inside your `FASTN.ftd` file, You need to
+add onest-font assets and import it inside your `.ftd` files where you are
+using this font for your custom font types. 
+
+To include onest-font into your `ftd` file follow below instructions.
+
+-- cb.code:
+lang: ftd
+
+\-- import: meenukumari28.github.io/onest-font/assets as onest-font-assets
+
+-- site-doc.header: How to create a custom onest-font type? 
+
+We don't recommend creating custom types. We recommend to use 
+our [onest-font-typography](https://meenukumari28.github.io/onest-font-typography)
+
+If you're using [onest-font-typography](https://meenukumari28.github.io/onest-font-typography) 
+and still your designer has introduced new font size which are not included or 
+part of our [onest-font-typography](https://meenukumari28.github.io/onest-font-typography) 
+then only define custom types. 
+
+We hope you shouldn't need to define a custom type.
+
+Below is an example of creating a custom `ftd.type` using onest-font.
+
+/-- cb.rendered: Demo:
+
+-- cb.rendered.input:
+
+\-- ftd.type onest-font-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+\-- ftd.type onest-font-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+\-- ftd.responsive-type onest-font-size-12-400:
+desktop: $onest-font-size-12-desktop
+mobile: $onest-font-size-12-mobile
+
+\-- ftd.text: 
+role: $onest-font-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- cb.rendered.output:
+
+-- site-doc.output:
+colors: $ftd.default-colors
+
+-- ftd.text: 
+role: $onest-font-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- end: site-doc.output
+
+-- end: cb.rendered.output
+
+-- end: cb.rendered
+
+-- end: site-doc.doc-home
+
+
+
+
+
+
+
+
+
+
+-- ftd.type onest-font-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-12-400:
+desktop: $onest-font-size-12-desktop
+mobile: $onest-font-size-12-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-12-500-desktop:
+size.px: 12
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-12-500-mobile:
+size.px: 12
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-12-500:
+desktop: $onest-font-size-12-500-desktop
+mobile: $onest-font-size-12-500-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-12-800-desktop:
+size.px: 12
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-12-800-mobile:
+size.px: 12
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-12-800:
+desktop: $onest-font-size-12-800-desktop
+mobile: $onest-font-size-12-800-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-18-desktop:
+size.px: 18
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-18-mobile:
+size.px: 18
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-18-400:
+desktop: $onest-font-size-18-desktop
+mobile: $onest-font-size-18-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-18-500-desktop:
+size.px: 18
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-18-500-mobile:
+size.px: 18
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-18-500:
+desktop: $onest-font-size-18-500-desktop
+mobile: $onest-font-size-18-500-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-18-800-desktop:
+size.px: 18
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-18-800-mobile:
+size.px: 18
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-18-800:
+desktop: $onest-font-size-18-800-desktop
+mobile: $onest-font-size-18-800-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-48-desktop:
+size.px: 48
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-48-mobile:
+size.px: 48
+weight: 400
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-48-400:
+desktop: $onest-font-size-48-desktop
+mobile: $onest-font-size-48-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-48-500-desktop:
+size.px: 48
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-48-500-mobile:
+size.px: 48
+weight: 500
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-48-500:
+desktop: $onest-font-size-48-500-desktop
+mobile: $onest-font-size-48-500-mobile
+
+
+
+
+
+-- ftd.type onest-font-size-48-800-desktop:
+size.px: 48
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+
+-- ftd.type onest-font-size-48-800-mobile:
+size.px: 48
+weight: 800
+font-family: $onest-font-assets.fonts.Onest
+
+-- ftd.responsive-type onest-font-size-48-800:
+desktop: $onest-font-size-48-800-desktop
+mobile: $onest-font-size-48-800-mobile
